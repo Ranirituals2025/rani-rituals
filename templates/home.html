@@ -1,89 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ title }}</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Helvetica Neue", sans-serif;
-      background-color: #ffeef2;
-      color: #333;
-    }
-    nav {
-      background-color: #fff;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-    nav .logo {
-      font-weight: bold;
-      font-size: 1.5rem;
-      color: #e295b5;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 2rem;
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: #333;
-      font-weight: 500;
-    }
-    .hero {
-      text-align: center;
-      padding: 5rem 2rem;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      color: #c44e7b;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      margin-top: 1rem;
-      color: #555;
-    }
-    .cta {
-      margin-top: 2rem;
-      display: inline-block;
-      background-color: #e295b5;
-      color: #fff;
-      padding: 0.75rem 1.5rem;
-      border-radius: 25px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
-      margin-top: 5rem;
-      text-align: center;
-      padding: 2rem;
-      background-color: #fff;
-      color: #999;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rani Rituals ✪</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdecef;
+            color: #3b0a2a;
+        }
+        header {
+            background-color: #fff0f5;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #c2185b;
+            font-weight: 600;
+        }
+        .section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #c2185b;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            background-color: #fff0f5;
+            color: #6b6b6b;
+        }
+    </style>
 </head>
 <body>
-  <nav>
-    <div class="logo">Rani Rituals 💖</div>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="#">Routines</a></li>
-      <li><a href="#">Community</a></li>
-      <li><a href="#">AI</a></li>
-    </ul>
-  </nav>
+    <header>
+        <h1>Rani Rituals 💕</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#routines">Routines</a>
+            <a href="#community">Community</a>
+            <a href="#ai">AI</a>
+        </nav>
+    </header>
 
-  <section class="hero">
-    <h1>{{ title }}</h1>
-    <p>{{ tagline }}</p>
-    <a href="#" class="button">{{ cta }}</a>    
-  </section>
+    <div class="section" id="mission">
+        <h2>🕊️ Mission Statement</h2>
+        <p>To empower every modern desi girl to embrace mindful self-care through personalized routines, community support, and intelligent tools.</p>
+    </div>
 
-  <footer>© 2025 Rani Rituals. All rights reserved.</footer>
+    <div class="section" id="vision">
+        <h2>🌟 Vision Statement</h2>
+        <p>To become the leading digital sanctuary for South Asian women worldwide, redefining wellness with cultural relevance and radiant confidence.</p>
+    </div>
+
+    <div class="section" id="about">
+        <h2>👩‍💼 About the Founder</h2>
+        <p>Hi, I’m Krupa — a corporate girl, ice skater, and aspiring lawyer passionate about helping brown girls reclaim their health and glow. I built Rani Rituals as a space I wish I had: one that gets our routines, our skin, our moms, and our magic.</p>
+    </div>
+
+    <div class="section" id="features">
+        <h2>✨ Features Included</h2>
+        <ul>
+            <li>Personalized skincare and wellness routines</li>
+            <li>AI-powered product and habit suggestions</li>
+            <li>Community questions and responses</li>
+            <li>Skincare scanner + ingredient analyzer</li>
+            <li>Desi-specific insights for body, skin, and soul</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2025 Rani Rituals. All rights reserved.
+    </footer>
 </body>
 </html>
