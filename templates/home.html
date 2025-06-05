@@ -1,10 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ title }}</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #ffeef2;
+      color: #333;
+    }
+    nav {
+      background-color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    nav .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #e295b5;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #c44e7b;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      color: #555;
+    }
+    .cta {
+      margin-top: 2rem;
+      display: inline-block;
+      background-color: #e295b5;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 5rem;
+      text-align: center;
+      padding: 2rem;
+      background-color: #fff;
+      color: #999;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>👑 Welcome to Rani Rituals</h1>
-  <p>Your self-care sanctuary for the modern desi girl.</p>
+  <nav>
+    <div class="logo">Rani Rituals 💖</div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="#">Routines</a></li>
+      <li><a href="#">Community</a></li>
+      <li><a href="#">AI</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to Rani Rituals</h1>
+    <p>Your self-care sanctuary for the modern desi girl.</p>
+    <a href="#" class="cta">Explore Your Rituals</a>
+  </section>
+
+  <footer>© 2025 Rani Rituals. All rights reserved.</footer>
 </body>
 </html>
